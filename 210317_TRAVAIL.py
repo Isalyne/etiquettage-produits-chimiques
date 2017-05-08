@@ -4,7 +4,6 @@
 from tkinter import *
 from PIL import Image, ImageTk
 from differents_dico import *
-it
 
 def click_result():
     abcdef = champ.get().lower()
