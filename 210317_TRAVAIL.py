@@ -4,7 +4,7 @@
 from tkinter import *
 from PIL import Image, ImageTk
 from differents_dico import *
-
+it
 
 def click_result():
     abcdef = champ.get().lower()
@@ -55,16 +55,16 @@ dico = {
 number_row=0
 root = Tk()
 w = Label (root, text="Entrez le nom du produit.")
-w.grid(row=number_row)
+w.grid(row=number_row, column=1)
 number_row += 1
 
 champ=Entry(root)
-champ.grid(row=number_row)
+champ.grid(row=number_row, column=1)
 number_row += 1
 
 
 button_results= Button(root,text="Résultats", command=click_result)
-button_results.grid(row=number_row)
+button_results.grid(row=number_row,column=1)
 number_row += 1
 
 
@@ -78,44 +78,54 @@ label_numero.grid(row=number_row)
 number_row += 1
 
 
+label_formule = Label (root, text = "Formule chimique", font = "Helvetica 14 bold")
+label_formule.grid(row=number_row)
+number_row += 1
+
+label_formule = Text (root, height = 2, width = 15)
+label_formule.grid(row=number_row)
+number_row += 2
+
 image_bienvenue= Image.open("bienvenue.png")
 image_pictogramme= ImageTk.PhotoImage(image_bienvenue)
 label_pictogramme = Label (root, image= image_pictogramme)
 label_pictogramme.grid(row=number_row)
-number_row += 1
+
+number_row = 3
+#repartir_colonne_droite_ligne3
 
 label_classe = Label (root, text = "Classe du produit", font = "Helvetica 14 bold")
-label_classe.grid(row=number_row)
+label_classe.grid(row=number_row, column=1)
 number_row += 1
 
 
 text_classe = Text(root, height = 6, width = 100)
-text_classe.grid(row=number_row)
+text_classe.grid(row=number_row, column=1)
 number_row += 1
 
 
 label_mentions = Label (root, text = "Mentions de danger", font = "Helvetica 14 bold")
-label_mentions.grid(row=number_row)
+label_mentions.grid(row=number_row, column=1)
 number_row += 1
 
 
 text_mentions = Text(root, height = 6, width = 100)
-text_mentions.grid(row=number_row)
+text_mentions.grid(row=number_row, column=1)
 number_row += 1
 
 
 label_prudence = Label (root, text = "Mentions de prudence", font = "Helvetica 14 bold")
-label_prudence.grid(row=number_row)
+label_prudence.grid(row=number_row, column=1)
 number_row += 1
 
 
 text_prudence = Text(root, height = 6, width = 100)
-text_prudence.grid(row=number_row)
+text_prudence.grid(row=number_row, column=1, sticky=N)
 number_row += 1
 
 
 d= Button(root,text="Quitter", command=root.quit)
-d.grid(row=number_row)
+d.grid(row=number_row, column=1)
 number_row += 1
 
 
