@@ -5,6 +5,8 @@ from tkinter import *
 from PIL import Image, ImageTk
 from differents_dico import *
 
+
+
 def click_result():
     abcdef = champ.get().lower()
     if not abcdef in dico:
@@ -12,6 +14,7 @@ def click_result():
         return
     else:
         champ.configure(bg = 'white')
+
 
     im1 = Image.open(dico[abcdef][0])
     print()
@@ -71,7 +74,6 @@ label_numero = Label (root, text = "Numéro CAS", font = "Helvetica 14 bold")
 label_numero.grid(row=number_row)
 number_row += 1
 
-
 label_numero = Text (root, height = 2, width = 10)
 label_numero.grid(row=number_row)
 number_row += 1
@@ -83,7 +85,17 @@ number_row += 1
 
 label_formule = Text (root, height = 2, width = 15)
 label_formule.grid(row=number_row)
+number_row += 1
+
+
+label_masse = Label (root, text = "Masse molaire (g/mol)", font = "Helvetica 14 bold")
+label_masse.grid(row=number_row)
+number_row += 1
+
+label_masse = Text (root, height = 2, width = 15)
+label_masse.grid(row=number_row)
 number_row += 2
+
 
 image_bienvenue= Image.open("bienvenue.png")
 image_pictogramme= ImageTk.PhotoImage(image_bienvenue)
@@ -97,7 +109,6 @@ label_classe = Label (root, text = "Classe du produit", font = "Helvetica 14 bol
 label_classe.grid(row=number_row, column=1)
 number_row += 1
 
-
 text_classe = Text(root, height = 6, width = 100)
 text_classe.grid(row=number_row, column=1)
 number_row += 1
@@ -107,7 +118,6 @@ label_mentions = Label (root, text = "Mentions de danger", font = "Helvetica 14 
 label_mentions.grid(row=number_row, column=1)
 number_row += 1
 
-
 text_mentions = Text(root, height = 6, width = 100)
 text_mentions.grid(row=number_row, column=1)
 number_row += 1
@@ -116,7 +126,6 @@ number_row += 1
 label_prudence = Label (root, text = "Mentions de prudence", font = "Helvetica 14 bold")
 label_prudence.grid(row=number_row, column=1)
 number_row += 1
-
 
 text_prudence = Text(root, height = 6, width = 100)
 text_prudence.grid(row=number_row, column=1, sticky=N)
