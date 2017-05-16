@@ -292,9 +292,9 @@ dicoprudence = {
 
     "P303 + P361 + P353": "EN CAS DE CONTACT AVEC LA PEAU (ou les cheveux): enlever immédiatement les vêtements contaminés. Rincer la peau à l'eau/se doucher.",
 
-     "P304 + P340": "EN CAS D'INHALATION: transporter la victime à l'extérieur et la maintenir au repos dans une position où elle peut confortablement respirer.",
+    "P304 + P340": "EN CAS D'INHALATION: transporter la victime à l'extérieur et la maintenir au repos dans une position où elle peut confortablement respirer.",
 
-     "P304 + P341": "EN CAS D'INHALATION: s'il y a difficulté à respirer, transporter la victime à l'extérieur et la maintenir au repos dans une position où elle peut confortablement respirer.",
+    "P304 + P341": "EN CAS D'INHALATION: s'il y a difficulté à respirer, transporter la victime à l'extérieur et la maintenir au repos dans une position où elle peut confortablement respirer.",
 
     "P305 + P351 + P338": "EN CAS DE CONTACT AVEC LES YEUX: rincer avec précaution à l'eau pendant plusieurs minutes. Enlever les lentilles de contact si la victime en porte et si elles peuvent être facilement enlevées. Continuer à rincer.",
 
@@ -365,4 +365,49 @@ dicoprudence = {
     "P411 + P235": "Stocker à une température ne dépassant pas … oC/… oF. Tenir au frais.",
 
     "P501": "Éliminer le contenu/récipient dans …",
+}
+
+dicoproduit = {
+    "Acétate de linalyle": ['115-95-7','C12H20O2','196,286+-0,0116',['SGH-07.jpeg'],['Nocif ou irritant'],['H315','H319','H335'],['P261','P305','P351','P338']],
+    "Acétone": ['67-64-1','C3H6O','58,0791+-0,0031',['SGH-02.jpg','SGH-07.jpeg'],['Inflammable','Nocif ou irritant'],['H225','H319','H336'],['P210','P261','P280','P305','P351','P338']],
+    "Acide acétique": ['64-19-7','C2H4O2','60,052+-0,0025',['SGH-02.jpg','SGH-05.jpeg'],['Corrosif','Inflammable'],['H226','H314'],['P280','P305','P351','P338','P310']],
+    "Acide benzoique": ['65-85-0','C7H6O2','122,1213+-0,0066',['SGH-05.jpeg','SGH-08.jpeg'],['Corrosif','Danger pour la santé'],['H315','H318','H372'],['P280','P302','P352','P305','P351','P338',]],
+    "Acide chlorhydrique": ['7647-01-0','HCl','36,461+-0,002',['SGH-05.jpeg','SGH-07.jpeg'],['Corrosif','Nocif ou irritant'],['H314','H335'],['P260','P301','P303','P305','P330','P331','P338','P351','P353','P361','P405','P501']],
+    "Acide citrique": ['Anhydre:77-92-9','C6H8O7','192,1235+-0,0075',['SGH-07.jpeg'],['Nocif ou irritant'],['H319','H315','H335'],['P305','P351','P338']],
+    "EDTA": ['60-00-4','C10H16N2O8','292,2426+-0,0119',['SGH-07.jpeg'],['Nocif ou irritant'],['H319'],['P305','P338''P351']],
+    "Acide formique": ['64-18-6','CH2O2','46,0254+-0,0015',['SGH-05.jpeg'],['Corrosif'],['H314'],['P280','P305','P351','P338','P310','P351']],
+    "Acide nitrique": ['7697-37-2','HNO3','63,0128+-0,0012',['SGH-03.jpg','SGH-05.jpeg'],['Comburant','Corrosif'],['H272','H314'],['P220','P260','P280','P305','P351','P338','P310','P302','P352']],
+    "Acide oxalique": ['Anhydre:144-62-7','C2H2O4','90,0349+-0,0029',['SGH-07.jpeg'],['Nocif ou irritant'],['H302','H312'],['P280','P301','P312','P262']],
+    "Acide perchlorique": ['7601-90-3','HClO4','100,459+-0,003',['SGH-03.jpg','SGH-05.jpeg'],['Comburant','Corrosif'],['H271','H314'],['P220','P280','P305','P310','P338','P351']],
+    "Acide picrique": ['88-89-1','C6H3N3O7','229,1039+-0,0077',['SGH-01.jpeg','SGH-06.jpeg'],['Matière instable','Dangereux pour l environnement'],['H201','H301','H311','H331'],['P101','P210','P250','P261','P270','P280','P301','P310','P370','P380','P403','P302','P352','P305','P351','P338']],
+    "Acide salicylique": ['69-72-7','C7H6O3','138,1207+-0 ,0069',['SGH-05.jpeg','SGH-07.jpeg'],['Corrosif','Nocif ou irritant'],['H302','H318'],['P280','P305','P351','P338']],
+    "Acide sulfurique": ['7664-93-9','H2SO4','98,078+-0,006',['SGH-05.jpeg'],['Corrosif'],['H314'],['P280','P301','P305','P309','P310','P330','P331','P338','P351']],
+    "Alcool benzylique": ['100-51-6','C7H8O','108,1378+-0,0065',['SGH-07.jpeg'],['Nocif ou irritant'],['H302','H332'],['P280','P301','P312','P302','P352']],
+    "Acétaldéhyde": ['75-07-0','C2H4O','44,0526+-0,0022',['SGH-02.jpg','SGH-08.jpeg','SGH-04.jpeg'],['Danger pour la santé','Gaz sous pression','Inflammable'],['H224','H302','H315','H318','H334','H350'],['P210','P261','P280','P305','P351','P338']],
+    "Aluminium": ['7429-90-5','Al','26,9815386+-8x10-7',['SGH-02.jpg'],['Inflammable'],['H228','H261'],['P210','P232','P280','P370','P378']],
+    "Aniline": ['200-539-3','C6H7N','93,1265+-0,0055',['SGH-05.jpeg','SGH-06.jpeg','SGH-08.jpeg','SGH-09.jpeg'],['Corrosif','Toxique','Danger pour la santé','Dangereux pour l environnement'],['H301','H311','H331','H317','H318','H341','H351','H372','H400'],['P260','P280','P301','P310','P305','P351','P338','P308','P313','P302','P350']],
+    "Ammoniaque": ['1336-21-6','NH4OH','35,0458+-0,0009',['SGH-05.jpeg','SGH-09.jpeg'],['Corrosif','Dangereux pour l environnement'],['H314','H335','H400'],['P261','P273','P280','P305','P310','P338','P351']],
+    "Chlorure d'ammonium": ['12125-02-9','NH4Cl','53,491+-0,002',['SGH-07.jpeg'],['Nocif ou irritant'],['H302','H319'],['P280','P305','P351','P338','P337','P313']],
+    "Sel de Mohr": ['7783-85-9','Fe(SO4)2(NH4)2 · 6 H2O','392,139+-0,018',['SGH-07.jpeg'],['Nocif ou irritant'],['H315','H319','H335'],['P261','P264','P280','P302','P352','P305','P351','P338','P337','P313']],
+    "Nitrate d'ammonium": ['6484-52-2','NH4NO3','80,0434+-0,0016',['SGH-03.jpeg'],['Comburant'],['H272','H315','H319','H335'],['P210','P220','P280','P305','P351','P338']],
+    "Peroxodisulfate d'ammonium": ['7727-54-0','(NH4)2S2O8','228,202+-0,0,013',['SGH-03.jpg','SGH-08.jpeg'],['Comburant','Danger pour la santé'],['H272','H302','H315','H317','H319','H334','H335'],['P280','P302','P304','P305','P311','P338','P341','P342','P351','P352']],
+    "Thiocyanate d'ammonium": ['1762-95-4','CH4N2S','76,121+-0,006',['SGH-07.jpeg'],['Nocif ou irritant'],['H302','H312','H332','H412'],['P261','P273','P280','P301','P312','P302','P352']],
+    "Thiosulfate de sodium": ['7772-98-7','Na2S2O3','158,108+-0,011',['SGH-07.jpeg'],['Nocif ou irritant'],['H315','H319','H335'],['P261','P280','P302','P352','P305','P351','P338','P337','P313']],
+    "Anhydride acétique": ['108-24-7','C4H6O3','102,0886+-0,0045',['SGH-02.jpg','SGH-05.jpeg','SGH-07.jpeg'],['Inflammable','Corrosif','Nocif ou irritant'],['H226','H302','H314'],['P210','P260','P271','P280','P303','P361','P353','P304','P340','P232','P301','P310','P302','P350','P305','P351','P338']],
+    "Nitrate d'argent": ['7761-88-8','AgNO3','169,8731+-0,0013',['SGH-03.jpg','SGH-05.jpeg','SGH-09.jpeg'],['Comburant','Corrosif','Dangereux pour l environnement'],['H272','H314','H410'],['P220','P260','P273','P280','P305','P351','P338','P310','P302','P352']],
+    "Azorubine": ['3567-69-9','C20H12N2Na2O7S2','502,428+-0,029',['SGH-07.jpeg'],['Nocif ou irritant'],['H315','H319','H335'],['P305','P351','P338','P261']],
+    "Benzaldéhyde": ['100-52-7','C7H6O','106,1219+-0,0063',['SGH-07.jpeg'],['Nocif ou irritant'],['H302','H332','H319','H335'],['P261','P280','P301','P312','P304','P340','P305','P351','P338']],
+    "Bleu de méthylène": ['31-73-4','C16H18ClN3S','319,852+-0,022',['SGH-07.jpeg'],['Nocif ou irritant'],['H302','H315','H319','H335'],['P261','P280','P301','P312','P302','P352','P305','P351','P338']],
+    "Butane-1-ol": ['71-36-3','C4H10O','74,1216+-0,0042',['SGH-02.jpg','SGH-05.jpeg','SGH-07.jpeg'],['Inflammable','Corrosif','Nocif ou irritant'],['H226','H302','H315','H318','H335','H336'],['P210','P280','P261','P303','P361','P353','P304','P340','P305','P351','P338','P312','P332','P313','P302','P350']],
+    "Chlorure de calcium": ['Anhydre:10043-52-4','CaCl2','110,984+-0,008',['SGH-07.jpeg'],['Nocif ou irritant'],['H319'],['P305','P351','P338']],
+    "Hydroxyde de calcium": ['1305-62-0','Ca(OH)2','74,093+-0,005',['SGH-05.jpeg','SGH-07.jpeg'],['Corrosif','Nocif ou irritant'],['H315','H318','H335'],['P261','P280','P302','P352','P305','P351','P338']],
+    "Dichlorométhane": ['75-09-2','CH2Cl2','84,933+-0,005',['SGH-08.jpeg'],['Danger pour la santé'],['H351'],['P281']],
+    "Chloroforme": ['67-66-3','CHCl3','119,378+-0,007',['SGH-06.jpeg','SGH-08.jpeg'],['Toxique','Danger pour la santé'],['H302','H315','H351','H373'],['P281']],
+    "Cyclohexane": ['110-82-7','C6H12','84,1595+-0,0056',['SGH-02.jpg','SGh-07.jpeg','SGH-08.jpeg','SGH-09.jpeg'],['Danger pour la santé','Dangereux pour l environnement','Inflammable','Nocif ou irritant'],['H225','H304','H315','H336','H410'],['P210','P261','P273','P280','P303','P361','P353','P304','P340','P403','P233']],
+    "Cyclohexène": ['110-83-8','C6H10','82,1436+-0,005',['SGH-02.jpg','SGH-06.jpeg','SGH-07.jpeg','SGH-08.jpeg'],['Inflammable','Toxique','Nocif ou irritant','Danger pour la santé'],['H225','H302','H304','H311'],['P210','P280','P312','P331','P301','P310']],
+    "Dichlorométhane": ['75-09-2','CH2Cl2','84,933+-0,005',['SGH-08.jpeg'],['Danger pour la santé'],['H351'],['P281']],
+    "Diéthyl éther": ['60-29-7','C4H10O','74,1216+-0,0042',['SGH-02.jpg','SGH-07.jpeg'],['Inflammable','Nocif ou irritant'],['H224','H302','H336'],['P210','P261','P280','P304','P340','P403','P233']],
+    "DNPH": ['119-26-6','C6H6N4O4','198,1362+-0,0072',['SGH-02.jpg','SGH-07.jpeg'],['Inflammable','Nocif ou irritant'],['H228','H302','H315','H319'],['P210','P270','P280','P301','P312','P302','P352','P305','P351','P338','P230','P233','P235','P410','P370','P380','P375']],
+    "Peroxyde d'hydrogène": ['7722-84-1','H2O2','34,0147+-0,0007',['SGH-03.jpg','SGH-05.jpeg','SGH-07.jpeg'],['Comburant','Corrosif','Nocif ou irritant'],['H302','H318','H332'],['P102','P261','P280','P305','P351','P338','P310','P221','P235','P410']],
+    "Ethanol": ['64-17-5','C2H6O','46,0684+-0,0023',['SGH-02.jpeg'],['Inflammable'],['H225'],['P210']]
 }
